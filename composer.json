@@ -1,0 +1,23 @@
+{
+  "name": "wematica/wepubsub",
+  "type": "library",
+  "description": "Supporto sistema Pub/Sub google cloud.",
+  "keywords": ["Wematica","pub","sub", "google"],
+  "homepage": "https://wematica.it",
+  "license": "",
+  "authors": [
+    {
+      "name": "Edoardo Federici",
+      "email": "e.federici@wematica.it",
+      "homepage": "https://wematica.it",
+      "role": "Developer"
+    }
+  ],
+  "autoload": {
+    "classmap": ["lib"]
+  },
+  "require": {
+    "google/cloud-pubsub": "*"
+  },
+  "minimum-stability": "dev"
+}
