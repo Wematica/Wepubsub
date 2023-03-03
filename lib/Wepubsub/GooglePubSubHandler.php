@@ -30,7 +30,7 @@ class GooglePubSubHandler
             'data' => base64_encode($message),
         ];
         $message = $topic->publish($data);
-        return $message->id();
+        return $message['messageIds'][0];
     }
 
     /**
