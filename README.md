@@ -14,7 +14,7 @@ The class **GooglePubSubHandler** uses the Google Cloud Pub/Sub client library t
 
 You can instantiate the class and use its methods to publish and subscribe to messages in your Laravel PHP application like so:
 
-    $pubsub = new GooglePubSubHandler();
+    $pubsub = new GooglePubSubHandler(['GOOGLE_CLOUD_PROJECT_ID' => '', 'GOOGLE_CLOUD_KEY_FILE_PATH' => '']);
 
     // Publish a message to a topic
     $topicName = 'my-topic';
