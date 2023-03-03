@@ -2,6 +2,8 @@
 
 The package requires the google cloud pub/sub package.
 
+> composer require wematica/wepubsub
+
 The class **GooglePubSubHandler** uses the Google Cloud Pub/Sub client library to handle publishing and subscribing to messages. The constructor sets up the client with the necessary credentials.
 
 ### Methods
